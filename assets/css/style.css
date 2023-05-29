@@ -90,12 +90,12 @@ li { list-style: none; }
 
 a { text-decoration: none; }
 
-a,
+/* a,
 img,
 span,
 input,
 button,
-ion-icon { display: block; }
+ion-icon { display: block; } */
 
 input {
   font: inherit;
@@ -1598,5 +1598,30 @@ body.active { overflow: hidden; }
     font-size: 30px;
     transform: rotate(-0.25turn);
   }
+
+}
+
+/**
+* translate
+*/
+
+.goog-te-gadget-icon {
+  display:none;
+}
+
+
+.goog-te-gadget-simple {
+    background-color: #ecebf0 !important;
+    border:0 !important;
+    font-size: 10pt;
+   font-weight:800;
+    display: inline-block;
+    padding:10px 10px !important;
+    cursor: pointer;
+    zoom: 1;
+}
+
+.goog-te-gadget-simple  span {
+   color:#3e3065 !important;
 
 }
